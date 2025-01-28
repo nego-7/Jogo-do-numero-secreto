@@ -6,7 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-
+// inserindo função de voz no site para 
    if ("speechSynthesis" in window){
     let utterance = new SpeechSynthesisUtterance(texto);
     utterance.lange = "pt-BR";
